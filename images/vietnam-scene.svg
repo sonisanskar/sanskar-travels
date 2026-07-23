@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe2b0"/>
+      <stop offset="45%" stop-color="#e79a63"/>
+      <stop offset="100%" stop-color="#a4522a"/>
+    </linearGradient>
+    <linearGradient id="vsea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d7a78"/>
+      <stop offset="100%" stop-color="#0a4341"/>
+    </linearGradient>
+    <radialGradient id="vsun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff3d6"/>
+      <stop offset="100%" stop-color="#ffbf7d"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#vsky)"/>
+  <circle cx="380" cy="220" r="105" fill="url(#vsun)" opacity="0.9"/>
+
+  <!-- halong bay karst silhouettes, layered -->
+  <g fill="#0f4f4d" opacity="0.35">
+    <path d="M0,480 C40,420 80,430 100,470 C130,400 180,410 190,460 C230,400 270,420 270,470 L0,480 Z"/>
+    <path d="M600,470 C650,400 700,410 715,460 C760,390 820,405 830,455 L600,470 Z"/>
+    <path d="M1100,460 C1150,390 1210,400 1225,450 C1270,390 1330,405 1340,450 L1100,460 Z"/>
+  </g>
+  <g fill="#0f4f4d" opacity="0.65">
+    <path d="M200,520 C250,440 310,450 325,505 C370,430 430,445 445,500 L200,520 Z"/>
+    <path d="M850,510 C900,430 960,440 975,495 C1020,420 1080,440 1095,490 L850,510 Z"/>
+    <path d="M1300,500 C1350,430 1410,440 1425,490 L1300,500 Z"/>
+  </g>
+
+  <!-- sea -->
+  <path d="M0,560 Q400,530 800,560 T1600,560 V900 H0 Z" fill="url(#vsea)"/>
+  <path d="M0,610 Q400,585 800,610 T1600,610" stroke="#bdeeeb" stroke-width="4" fill="none" opacity="0.3"/>
+
+  <!-- junk boat -->
+  <g transform="translate(720,640)" fill="#2c2a26" opacity="0.88">
+    <path d="M-140,60 Q0,90 140,60 L120,80 Q0,100 -120,80 Z"/>
+    <path d="M-20,55 L-20,-90 L70,-10 L-20,10 Z"/>
+    <path d="M20,55 L20,-40 L70,-5 L20,10 Z"/>
+    <rect x="-10" y="45" width="20" height="15"/>
+  </g>
+
+  <!-- rice terrace hills bottom -->
+  <path d="M0,760 Q300,700 650,750 Q950,800 1300,730 Q1450,700 1600,740 V900 H0 Z" fill="#1f6b53" opacity="0.5"/>
+  <path d="M0,820 Q350,770 700,810 Q1000,850 1350,790 Q1480,770 1600,800 V900 H0 Z" fill="#164f3e" opacity="0.6"/>
+
+  <!-- hanging lanterns (hoi an) -->
+  <g>
+    <line x1="120" y1="0" x2="120" y2="90" stroke="#5c3417" stroke-width="3"/>
+    <ellipse cx="120" cy="110" rx="26" ry="32" fill="#d4514c"/>
+    <ellipse cx="120" cy="110" rx="26" ry="32" fill="none" stroke="#ffd98a" stroke-width="3"/>
+
+    <line x1="1440" y1="0" x2="1440" y2="70" stroke="#5c3417" stroke-width="3"/>
+    <ellipse cx="1440" cy="90" rx="22" ry="28" fill="#e0703f"/>
+    <ellipse cx="1440" cy="90" rx="22" ry="28" fill="none" stroke="#ffd98a" stroke-width="3"/>
+
+    <line x1="1500" y1="30" x2="1500" y2="100" stroke="#5c3417" stroke-width="3"/>
+    <ellipse cx="1500" cy="120" rx="18" ry="24" fill="#d4514c"/>
+    <ellipse cx="1500" cy="120" rx="18" ry="24" fill="none" stroke="#ffd98a" stroke-width="3"/>
+  </g>
+</svg>
