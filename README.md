@@ -9,6 +9,7 @@ A personal travel blog — static HTML/CSS site, no build tools required.
 - `oman.html` — 7-day Oman diary
 - `thailand.html` — 7-day Thailand diary
 - `vietnam.html` — 9-day Vietnam diary
+- `georgia.html` — 9-day Georgia diary
 - `styles.css` — shared styling (warm travel-journal theme)
 - `images/` — custom destination illustrations (SVG, no external image hosting needed)
 
