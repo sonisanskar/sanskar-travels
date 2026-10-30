@@ -10,6 +10,7 @@ A personal travel blog — static HTML/CSS site, no build tools required.
 - `thailand.html` — 7-day Thailand diary
 - `vietnam.html` — 9-day Vietnam diary
 - `georgia.html` — 9-day Georgia diary
+- `philippines.html` — 11-day Philippines diary
 - `styles.css` — shared styling (warm travel-journal theme)
 - `images/` — custom destination illustrations (SVG, no external image hosting needed)
 

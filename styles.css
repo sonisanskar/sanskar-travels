@@ -273,6 +273,7 @@ img { max-width: 100%; display: block; }
 .thai-bg { background: url('images/thailand-scene.svg') center center / cover no-repeat, linear-gradient(135deg, #0a5457, #0aa1a0 45%, #f0925c 100%); }
 .vietnam-bg { background: url('images/vietnam-scene.svg') center center / cover no-repeat, linear-gradient(135deg, #0a4341, #0d7a78 45%, #e79a63 100%); }
 .georgia-bg { background: url('images/georgia-scene.svg') center center / cover no-repeat, linear-gradient(135deg, #3a3050, #6a5a7a 45%, #e8935a 100%); }
+.ph-bg { background: url('images/philippines-scene.svg') center center / cover no-repeat, linear-gradient(135deg, #0a5a66, #27c4c0 45%, #f4a574 100%); }
 
 .dest-card .content {
   position: absolute;
@@ -440,6 +441,12 @@ footer {
     linear-gradient(180deg, rgba(30,24,45,0.5) 0%, rgba(20,16,32,0.85) 100%),
     url('images/georgia-scene.svg') center 65% / cover no-repeat,
     linear-gradient(160deg, #3a3050, #6a5a7a 40%, #e8935a 100%);
+}
+.diary-hero.philippines {
+  background:
+    linear-gradient(180deg, rgba(8,45,52,0.5) 0%, rgba(6,34,40,0.85) 100%),
+    url('images/philippines-scene.svg') center 65% / cover no-repeat,
+    linear-gradient(160deg, #0a5a66, #27c4c0 40%, #f4a574 100%);
 }
 
 .diary-hero::before { display: none; }
